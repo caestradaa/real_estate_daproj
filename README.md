@@ -9,14 +9,14 @@
 
 <!--### Code and Resourses Used-->
 ## Problem statement
-Actualmente no existe una información consolidada y clara (accesible) sobre el valor promedio del metro cuadrado por sector en la ciudad de barranquilla. Esta información que es de gran valor en el mercado inmobiliario ya que permite a las profesionales de este sector tener un mejor entendimiento de la valorización de cada zona y por ende ofrecer una mejor asesoría a sus clientes, ya sean vendedores o compradores. Esta información ayuda a los asesores inmobiliarios a brindar asesorías muchos más enfocadas, con precios más precisos, permitiendo que sus clientes puedan encontrar de una manera más rápida el bien inmueble que se ajuste más a sus necesidades.
+Currently there is no consolidated, clear and accessible information on the average value of the square meter per sector in the city of Barranquilla. This information is of great value in the real estate market as it helps real estate consultants to provide much more focused advice with more accurate prices, allowing their clients to find the property that best suits their needs more quickly.
 
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual real state market:
--	¿Cuál es el precio promedio del metro cuadrado por barrio en Barranquilla?
--	¿Qué sector tienen mayor y menor movimiento en el mercado inmobiliario? ¿En qué barrios hay mayor número de ofertas?
--	¿Cuál es el barrio y/o sector que tiene la mayor valorización en Barranquilla?
--	¿Cómo es el comportamiento de los precios en relación al área construida?
--	¿Cómo es la distribución interna más común de los inmuebles? ¡Cómo afectan la cantidad de habitaciones y baños al precio del inmueble?
+- What is the average price per square meter per neighborhood in Barranquilla?
+- Which sector has the greatest and least movement in the real estate market?
+- What are the neighborhoods or sectors with the highest appreciation in the city?
+- How is the behavior of prices in relation to the built area?
+- How is the most common internal distribution of properties? How do the number of rooms and bathrooms affect the price of the property?
 
 ## Data Collection
 Los datos fuero extraídos del sitioweb de ofertas inmobiliarias metrocuadrado.com mediante webscrapping utilizando la herramienta Octoparse: título de la publicación, url, barrio, pecio de venta, área, no. de habitaciones y baños. Se realiza estandarización de barrios con datos oficiales de la Alcaldía Distrital. tratamiento  de ouliers y eliminación de errores y duplicados.
