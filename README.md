@@ -1,5 +1,5 @@
 # Project: Real Estate Market Analysis in the city of Barranquilla, Col (building)
-*Exploratory data analysis project of the real estate market in the city of Barranquilla, Colombia. 2021.
+*Exploratory data analysis project of the real estate market in the city of Barranquilla, Colombia. 2021.*
 
 ## Overview
 - Deep analysis of the real estate offers in Barranquilla, Col for a better undestanding of the market, specifically the average price per square meter for each neighborhood. This was made in order to help agents to make more accurate estimates of the valuation of each area and offer better advice to their clients. 
