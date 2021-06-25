@@ -58,7 +58,7 @@ Data model was created as follows:
 - Apartment offers represent 72% of the total real estate market offers in the city, tending to be the type of property with the greatest facility to do business and giving a strong notion of the behavior demand. 
 - The 5 neighborhoods with the highest number of offers are Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín. All located in towns in the north of the city: Riomar, Norte-Centro Histórico and Puerto Colombia.
 - It is found that the neighborhoods with the highest valuation, according to the price per m², are Buenavista, Paseo de la Castellana and Portal del Genovés.
-- According to the above we can say that the real estate market is growing mainly towards the north of the city since the largest number of offers and the highest valuations of price per square meter are found there.
+- According to the above, we can say that the real estate market is growing mainly towards the north of the city since the largest number of offers and the highest valuations of price per square meter are found there.
 - This information is of great value to real estate agents as it helps them to make more accurate estimates of the valuation of each area and offer better advice to their clients.
 
 ## Power BI Report preview
