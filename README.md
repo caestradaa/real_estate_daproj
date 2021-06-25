@@ -5,7 +5,7 @@
 - Deep analysis of the real estate offers in Barranquilla, CO for a better undestanding of the market, specifically the average price per square meter for each sector. This was made in order to help agents to make more accurate estimates of the valuation of each area and offer better advice to their clients. 
 - Data extracted from the real estate offers website metrocuadrado.com through web scraping. Final dataset with 7288 rows.
 - Project tools: Octoparse for webscarapping. Power BI and DAX for ETL, data modeling and visualization. Python and Excel for inspection and data load. <!--- Important insights:-->
-- Outcome:. A formal report was built.
+- It is found that the real estate market is growing mainly towards the north of the city, the largest number of offers and the highest valuations of price per square meter are found there. Apartments offers represent 72%, houses 25% and lots 3%.
 
 <!--### Code and Resourses Used-->
 ## Problem statement
