@@ -2,7 +2,7 @@
 *Exploratory data analysis project of the real estate market in the city of Barranquilla, Colombia. 2021.*
 
 ## Overview
-- Deep analysis of the real estate offers in Barranquilla, Col for a better undestanding of the market, specifically the average price per square meter for each neighborhood. This was made in order to help agents to make more accurate estimates of the valuation of each area and offer better advice to their clients. 
+- Deep analysis of the real estate offers in Barranquilla, Col for a better undestanding of the market, specifically the average price per square meter for each sector. This was made in order to help agents to make more accurate estimates of the valuation of each area and offer better advice to their clients. 
 - Data extracted from the real estate offers website metrocuadrado.com through web scraping. Final dataset with 7288 rows.
 - Project tools: Octoparse for webscarapping. Power BI and DAX for ETL, data modeling and visualization. Python and Excel for inspection and data load. <!--- Important insights:-->
 - Outcome:. A formal report was built.
