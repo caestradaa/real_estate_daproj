@@ -30,10 +30,15 @@ Ater extrating the data it needed to be cleaned so it was uploaded into Power Qu
 - Set data types and format.
 - Made a reference of the dataset and removed "URL" columm which wasa not relevant for the analysis.
 - Outliers were treated specifically for "sale price" and "area". To identify them, the distribution of the values was analyzed and the columns were profiled using Power Query. In addition, criteria such as errors, values without logical sense and the target market to be addressed were taken into account.
-- Made an auxiliary Date table using DAX.
 
 ![alt text]( "Data cleaning summary")
 ![alt text]( "Final dataset preview")
+
+## Data Modeling
+The average price per square meter metric was created using DAX by dividing the sale price of each property by its area.
+Data model was created as follows:
+![alt text]( "Data model")
+
 
 ## Exploratory Data Analysis (EDA)
 ![alt text]( "")
@@ -42,14 +47,22 @@ Ater extrating the data it needed to be cleaned so it was uploaded into Power Qu
 
 ## Specific Analysis
 
-### Line B (long-cut pasta line)
+### Title
 ![alt text]()
 ![alt text]( "")
 
-### Line C-STR (Special pasta line)
+### Title
 ![alt text]()
+
+## Conclusions
+- Apartment offers represent 72% of the total real estate market offers in the city, tending to be the type of property with the greatest facility to do business and giving a strong notion of the behavior demand. 
+- The 5 neighborhoods with the highest number of offers are Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín. All located in towns in the north of the city: Riomar, Norte-Centro Histórico and Puerto Colombia.
+- It is found that the neighborhoods with the highest valuation, according to the price per m², are Buenavista, Paseo de la Castellana and Portal del Genovés.
+- According to the above we can say that the real estate market is growing mainly towards the north of the city since the largest number of offers and the highest valuations of price per square meter are found there.
+- This information is of great value to real estate agents as it helps them to make more accurate estimates of the valuation of each area and offer better advice to their clients.
 
 ## Power BI Report preview
 ![alt text]( "")
 ![alt text]( "")
-<!---## Conclusions and recomendations-->
+
+<!---Para ocultar-->
