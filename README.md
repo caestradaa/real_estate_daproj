@@ -20,9 +20,10 @@ In the absence of an open database with the necessary information, the data was 
 - Area
 - Number of rooms
 - Number of bathrooms
-In addition, to know the location of each neighborhood and standardize their names, a second data set is used from the official website of the District Mayor's Office. 
 
-![alt text]( "Raw data preview")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Raw_dataset.png "Raw data preview")
+
+In addition, a second data set was used from the official website of the District Mayor's Office in order to standardize neighborhood's names and the sector they belong to.
 
 ## Data Cleaning
 Ater extrating the data it needed to be cleaned so it was uploaded into Power Query and made the following changes:
@@ -31,7 +32,7 @@ Ater extrating the data it needed to be cleaned so it was uploaded into Power Qu
 - The name of the neighborhoods was standardized and also locality was included by making a left outer join with the official data table of the District Mayor's Office.
 - Set data types and format.
 - Made a reference of the dataset and removed "URL" columm which wasa not relevant for the analysis.
-- Outliers were treated specifically for "sale price" and "area". To identify them, the distribution of the values was analyzed and the columns were profiled using Power Query. In addition, criteria such as errors, values without logical sense and the target market to be addressed were taken into account.
+- Outliers were treated specifically for "sale price" and "area". To identify them, the distribution of the values was analyzed and the columns were profiled using Power Query. Other criteria were included such as errors, values without logical sense and the target market to be addressed.
 
 ![alt text]( "Data cleaning summary")
 ![alt text]( "Final dataset preview")
@@ -58,13 +59,13 @@ Data model was created as follows:
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")
 
 ## Valuation Analysis
-A detailed analysis by type of property must be carried out. As shown before previously, the three types of property present in this study maintain very different price ranges and areas. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
+A detailed analysis by type of property must be carried out. As shown before previously, the three types of property present in this study maintain very different price ranges and areas representing different markets. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
 - Average price per square meter: For this metric, it was necessary to calculate a DAX measure by dividing the price of each property by its built area.
 - Valuation Estimate: To measure the appraisal of each neighborhood, many criteria are necessary including the average price per square meter of the sector, the age of the properties, the type of area (commercial or residential) and the future projection of the sector according to the land use plan. However, in this study we can only have a valuation estimate from the average price per square meter for both Apartments and Houses. Real estate agents must complement this estimate with additional information about the property in order to have a more accurate valuation. 
 
-Top 5 of the neighborhoods with the highest price per square meter. For Apartments (left) and Houses (Right):
+Top 5 of the neighborhoods with the highest price per square meter. For Apartments market (left) and Houses market (Right):
 
-![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_apartments.png "Best valuated Apartments")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_apartments.png "Best valuated neigh - apartments market")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_Houses.png "Best valuated Houses")
 
 Offers and Valuation Map:
