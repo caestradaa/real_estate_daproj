@@ -64,7 +64,7 @@ Data model was created as follows:
 - This information is of great value to real estate agents as it helps them to make more accurate estimates of the valuation of each area and offer better advice to their clients.
 
 ## Power BI Report preview
-![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/1%20Dashboard%20-%20Exploratory%20Analysis.jpg"Pag1")
-![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/2%20Dashboard%20-%20Detailed%20Analysis%20-%20Apartments.jpg"Page2")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/1%20Dashboard%20-%20Exploratory%20Analysis.jpg "Pag1")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/2%20Dashboard%20-%20Detailed%20Analysis%20-%20Apartments.jpg "Page2")
 
 <!---Para ocultar-->
