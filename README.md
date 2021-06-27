@@ -28,7 +28,7 @@ In addition, to know the location of each neighborhood and standardize their nam
 Ater extrating the data it needed to be cleaned so it was uploaded into Power Query and made the following changes:
 - Removed duplicates, errors and empty rows.
 - Splited "Title" into two columms: "Property type" and "Neighborhood".
-- The name of the neighborhoods was standardized and also locality was included by making a left outer join with the official data table of the district Mayor's Office.
+- The name of the neighborhoods was standardized and also locality was included by making a left outer join with the official data table of the District Mayor's Office.
 - Set data types and format.
 - Made a reference of the dataset and removed "URL" columm which wasa not relevant for the analysis.
 - Outliers were treated specifically for "sale price" and "area". To identify them, the distribution of the values was analyzed and the columns were profiled using Power Query. In addition, criteria such as errors, values without logical sense and the target market to be addressed were taken into account.
@@ -43,11 +43,28 @@ Data model was created as follows:
 
 
 ## Exploratory Data Analysis (EDA)
-![alt text]( "")
-![alt text]( "")
-![alt text]()
+- 7288 properties (clean records), 163 neighborhoods and 16 sectors (localidades) were analized. Sectors of municipalities adjacent to the city were included, such as Puerto Colombia, Galapa, Soledad, Tubará, among others.
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/GEneral_Count.jpg "Count")
+
+- Offers distribution by type of property: For apartments, prices are concentrated between 255M and 540M with an average of 444M. For houses, between 400M and 950M with an average of 754M. And for the lots, prices are concentrated between 567M and 1800M with an average of 900 (boxplot). Clearly, most offers are postulated for apartments. This is consistent with the boom of apartment and residential complexes construction projects taking place in the city (DonutChart).
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Boxplot_by_category.jpg "Boxplot: Distribution of offers by type of property")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/DonutChart%20-%20Category%20analysis%202.png "Donut Chart: Analysis by Type of Property")
+<!---![alt text]( "")-->
+
+- Analysis of offers by location: The offers market remains mainly in these three sectors: North-Historic Center (50.8%), Riomar (35.1%) and Puerto Colombia (5.1%) (Bar Chart).
+- Analysis of offers by neighborhood:? Top 5 neighborhoods with the highest number of offers: Altos del Prado (800), Altos de Riomar (553), Villa Santos (504), Villa Campestre (323) and Ciudad Jardín (310).
+
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Barchart_Offers_by_Location.jpg "Barchart: Offers by Sector")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")
+<!---![alt text]( "")-->
 
 ## Specific Analysis
+A detailed analysis by type of property must be carried out. As shown before previously, the three types of property present in this study maintain very different price ranges and areas. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
+-	Precio promedio del metro cuadrado: Para esta métrica, fue necesario calcular una medida DAX dividiendo el precio de cada inmueble por su área construida.
+- Estimado de la Valorización: Para medir la valorización de cada barrio o sector son necesarios muchos criterios, como por ejemplo, el precio promedio del metro cuadrado del sector, la antigüedad de los inmuebles, el tipo de zona (comercial o residencial) y la proyección que tenga el sector hacia un futuro de acuerdo a los planes de ordenamiento territorial. Sin embargo, en este estudio solo podremos tener un estimado de la valorización a partir del precio promedio del metro cuadrado tanto para Apartamentos como para Casas. El agente inmobiliario deberá complementar dicha estimación con información adicional de la propiedad con el fin de tener una valoración mas precisa.
+
+A continuación, se muestra el top 5 de los barrios con mayor precio por metro cuadrado en la ciudad de Barranquilla.
+
 
 ### Title
 ![alt text]()
@@ -58,9 +75,9 @@ Data model was created as follows:
 
 ## Conclusions
 - Apartment offers represent 72% of the total real estate market offers in the city, tending to be the type of property with the greatest facility to do business and giving a strong notion of the behavior demand. 
-- The 5 neighborhoods with the highest number of offers are Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín. All located in towns in the north of the city: Riomar, Norte-Centro Histórico and Puerto Colombia.
-- It is found that the neighborhoods with the highest valuation, according to the price per m², are Buenavista, Paseo de la Castellana and Portal del Genovés.
-- According to the above, we can say that the real estate market is growing mainly towards the north of the city since the largest number of offers and the highest valuations of price per square meter are found there.
+- The 5 neighborhoods with the highest number of offers are Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín. All located at north sectors of the city: Riomar, Norte-Centro Histórico and Puerto Colombia.
+- It is found that the neighborhoods with the highest valuation according to the price per m², are Buenavista, Paseo de la Castellana and Portal del Genovés.
+- According to the above, the real estate market is growing mainly towards the north of the city since the largest number of offers and the highest valuations of price per square meter are found there.
 - This information is of great value to real estate agents as it helps them to make more accurate estimates of the valuation of each area and offer better advice to their clients.
 
 ## Power BI Report preview
