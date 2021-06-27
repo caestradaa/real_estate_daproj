@@ -35,13 +35,14 @@ Ater extrating the data it needed to be cleaned so it was uploaded into Power Qu
 - Outliers were treated specifically for "sale price" and "area". To identify them, the distribution of the values was analyzed and the columns were profiled using Power Query. Other criteria were included such as errors, values without logical sense and the target market to be addressed.
 
 ![alt text]( "Data cleaning summary")
-![alt text]( "Final dataset preview")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Final_dataset%20(fact_table)_nm.png "Clean data preview")
 
 ## Data Modeling
-The average price per square meter metric was created using DAX by dividing the sale price of each property by its area.
-Data model was created as follows:
-![alt text]( "Data model")
+Data model was created as follows: one fact table (Properties) and two dimensional tables (Neighborhoods and Type of property).
 
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Data_model.png "Data model")
+
+The average price per square meter metric was created using DAX by dividing the sale price of each property by its area.
 
 ## Exploratory Data Analysis (EDA)
 - 7288 properties (clean records), 163 neighborhoods and 16 sectors (localidades) were analized. Sectors of municipalities adjacent to the city were included, such as Puerto Colombia, Galapa, Soledad, Tubará, among others.
