@@ -39,10 +39,9 @@ Ater extrating the data it needed to be cleaned so it was uploaded into Power Qu
 
 ## Data Modeling
 Data model was created as follows: one fact table (Properties) and two dimensional tables (Neighborhoods and Type of property).
+Average price per square meter metric was created using DAX by dividing the sale price by area.
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Data_model.png "Data model")
-
-The average price per square meter metric was created using DAX by dividing the sale price of each property by its area.
 
 ## Exploratory Data Analysis (EDA)
 - 7288 properties (clean records), 163 neighborhoods and 16 sectors (localidades) were analized. Sectors of municipalities adjacent to the city were included, such as Puerto Colombia, Galapa, Soledad, Tubará, among others.
