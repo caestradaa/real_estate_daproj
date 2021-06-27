@@ -57,20 +57,21 @@ Data model was created as follows:
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Barchart_Offers_by_Location.jpg "Barchart: Offers by Sector")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")
 
-## Specific Analysis
+## Valuation Analysis
 A detailed analysis by type of property must be carried out. As shown before previously, the three types of property present in this study maintain very different price ranges and areas. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
--	Precio promedio del metro cuadrado: Para esta métrica, fue necesario calcular una medida DAX dividiendo el precio de cada inmueble por su área construida.
-- Estimado de la Valorización: Para medir la valorización de cada barrio o sector son necesarios muchos criterios, como por ejemplo, el precio promedio del metro cuadrado del sector, la antigüedad de los inmuebles, el tipo de zona (comercial o residencial) y la proyección que tenga el sector hacia un futuro de acuerdo a los planes de ordenamiento territorial. Sin embargo, en este estudio solo podremos tener un estimado de la valorización a partir del precio promedio del metro cuadrado tanto para Apartamentos como para Casas. El agente inmobiliario deberá complementar dicha estimación con información adicional de la propiedad con el fin de tener una valoración mas precisa.
+- Average price per square meter: For this metric, it was necessary to calculate a DAX measure by dividing the price of each property by its built area.
+- Valuation Estimate: To measure the appraisal of each neighborhood, many criteria are necessary including the average price per square meter of the sector, the age of the properties, the type of area (commercial or residential) and the future projection of the sector according to the land use plan. However, in this study we can only have a valuation estimate from the average price per square meter for both Apartments and Houses. Real estate agents must complement this estimate with additional information about the property in order to have a more accurate valuation. 
 
-A continuación, se muestra el top 5 de los barrios con mayor precio por metro cuadrado en la ciudad de Barranquilla.
+Top 5 of the neighborhoods with the highest price per square meter. For Apartments (left) and Houses (Right):
 
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_apartments.png "Best valuated Apartments")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_Houses.png "Best valuated Houses")
 
-### Title
-![alt text]()
-![alt text]( "")
+Offers and Valuation Map:
 
-### Title
-![alt text]()
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Map%20-%20price%20per%20square%20meter.jpg "Offers and Valuation Map")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Map%20-%20price%20per%20square%20meter%20%20-%20Leyends%201.jpg "Leyends:Price per square meter")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Map%20-%20price%20per%20square%20meter%20%20-%20Leyends%202.jpg "Leyends:Number of offers")
 
 ## Conclusions
 - Apartment offers represent 72% of the total real estate market offers in the city, tending to be the type of property with the greatest facility to do business and giving a strong notion of the behavior demand. 
