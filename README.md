@@ -63,7 +63,7 @@ A detailed analysis by type of property must be carried out. As shown before pre
 - Average price per square meter: For this metric, it was necessary to calculate a DAX measure by dividing the price of each property by its built area.
 - Valuation Estimate: To measure the appraisal of each neighborhood, many criteria are necessary including the average price per square meter of the sector, the age of the properties, the type of area (commercial or residential) and the future projection of the sector according to the land use plan. However, in this study we can only have a valuation estimate from the average price per square meter for both Apartments and Houses. Real estate agents must complement this estimate with additional information about the property in order to have a more accurate valuation. 
 
-Top 5 of the neighborhoods with the highest price per square meter. For Apartments market (left) and Houses market (Right):
+Top 10 of the neighborhoods with the highest price per square meter. For Apartments market (left) and Houses market (Right):
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_apartments.png "Best valuated neigh - apartments market")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table_best_valuated_Houses.png "Best valuated Houses")
