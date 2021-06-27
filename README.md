@@ -34,7 +34,6 @@ Ater extrating the data it needed to be cleaned so it was uploaded into Power Qu
 - Made a reference of the dataset and removed "URL" columm which wasa not relevant for the analysis.
 - Outliers were treated specifically for "sale price" and "area". To identify them, the distribution of the values was analyzed and the columns were profiled using Power Query. Other criteria were included such as errors, values without logical sense and the target market to be addressed.
 
-![alt text]( "Data cleaning summary")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Final_dataset%20(fact_table)_nm.png "Clean data preview")
 
 ## Data Modeling
@@ -45,6 +44,7 @@ Average price per square meter metric was created using DAX by dividing the sale
 
 ## Exploratory Data Analysis (EDA)
 - 7288 properties (clean records), 163 neighborhoods and 16 sectors (localidades) were analized. Sectors of municipalities adjacent to the city were included, such as Puerto Colombia, Galapa, Soledad, Tubará, among others.
+
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/GEneral_Count.jpg "Count")
 
 - Offers distribution by type of property: For apartments, prices are concentrated between 255M and 540M with an average of 444M. For houses, between 400M and 950M with an average of 754M. And for the lots, prices are concentrated between 567M and 1800M with an average of 900 (boxplot). Clearly, most offers are postulated for apartments. This is consistent with the boom of apartment and residential complexes construction projects taking place in the city (DonutChart).
