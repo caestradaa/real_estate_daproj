@@ -49,14 +49,12 @@ Data model was created as follows:
 - Offers distribution by type of property: For apartments, prices are concentrated between 255M and 540M with an average of 444M. For houses, between 400M and 950M with an average of 754M. And for the lots, prices are concentrated between 567M and 1800M with an average of 900 (boxplot). Clearly, most offers are postulated for apartments. This is consistent with the boom of apartment and residential complexes construction projects taking place in the city (DonutChart).
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Boxplot_by_category.jpg "Boxplot: Distribution of offers by type of property")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/DonutChart%20-%20Category%20analysis%202.png "Donut Chart: Analysis by Type of Property")
-<!---![alt text]( "")-->
 
 - Analysis of offers by location: The offers market remains mainly in these three sectors: North-Historic Center (50.8%), Riomar (35.1%) and Puerto Colombia (5.1%) (Bar Chart).
 - Analysis of offers by neighborhood:? Top 5 neighborhoods with the highest number of offers: Altos del Prado (800), Altos de Riomar (553), Villa Santos (504), Villa Campestre (323) and Ciudad Jardín (310).
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Barchart_Offers_by_Location.jpg "Barchart: Offers by Sector")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")
-<!---![alt text]( "")-->
 
 ## Specific Analysis
 A detailed analysis by type of property must be carried out. As shown before previously, the three types of property present in this study maintain very different price ranges and areas. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
