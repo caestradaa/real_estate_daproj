@@ -52,8 +52,8 @@ Average price per square meter metric was created using DAX by dividing the sale
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Boxplot_by_category.jpg "Boxplot: Distribution of offers by type of property")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/DonutChart%20-%20Category%20analysis%202.png "Donut Chart: Analysis by Type of Property")
 
-- Analysis of offers by location: The offers market remains mainly in these three sectors: North-Historic Center (50.8%), Riomar (35.1%) and Puerto Colombia (5.1%) (Bar Chart).
-- Analysis of offers by neighborhood: Top 5 neighborhoods with the highest number of offers: Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín (Table).
+- Offers analysis by location: The offers market remains mainly in these three sectors: North-Historic Center (50.8%), Riomar (35.1%) and Puerto Colombia (5.1%) (Bar Chart).
+- Offers analysis by neighborhood: Top 5 neighborhoods with the highest number of offers: Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín (Table).
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Barchart_Offers_by_Location.jpg "Barchart: Offers by Sector")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")
