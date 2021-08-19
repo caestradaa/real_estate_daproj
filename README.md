@@ -13,7 +13,7 @@ Currently there is no consolidated, clear and accessible information on the aver
 Some specific specific questions needed to be answer such as: What is the average price per square meter per neighborhood in Barranquilla? Which sector has the greatest and least movement in the real estate market? How is the behavior of prices in relation to the built area? What is the most common internal distribution of offerted properties?
 
 ## Data Collection
-In the absence of an open database with the necessary information, the data was extracted from the real estate offers website metrocuadrado.com through webscrapping using Octoparse. Running a pagination cycle, 7931 property records were obtained with the following attributes:
+In the absence of an open database with the necessary information, the data was extracted from the real estate offers website www.metrocuadrado.com through webscrapping using Octoparse. Running a pagination cycle, 7931 property records were obtained with the following attributes:
 - Publication title (containing Property type and Neighborhood info)
 - URL
 - Sale price
@@ -23,7 +23,7 @@ In the absence of an open database with the necessary information, the data was 
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Raw_dataset.png "Raw data preview")
 
-In addition, a second data set was used from the official website of the District Mayor's Office in order to standardize neighborhood's names and the sector they belong to.
+In addition, a second data set [(Neighborhoods and Sectors)][auxdataset] from the official website of the District Mayor's Office was collected in order to standardize neighborhood's names and the sector they belong to.
 
 ## Data Cleaning
 Ater extrating the data it needed to be cleaned so it was uploaded into Power Query and made the following changes:
@@ -87,4 +87,5 @@ Offers and Valuation Map:
 
 
 [cleandataset]:https://github.com/caestradaa/real_estate_daproj/blob/main/Data%20source/Clean%20dataset%20-%20Properties%20for%20sale%20BAQ-COL.csv
+[auxdataset]:https://github.com/caestradaa/real_estate_daproj/blob/main/Data%20source/Aux%20data%20-%20Neighborhoods%20and%20Sectors%20(District%20Mayor's%20Office).csv
 <!---Para ocultar-->
