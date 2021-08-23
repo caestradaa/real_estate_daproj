@@ -4,7 +4,7 @@
 ## Overview
 - A deep analysis of the real estate offers in Barranquilla, CO was carried out to achieve a better undestanding of the market, specifically the average price per square meter for each sector. It was made in order to help agents to make more accurate estimates of the valuation of each area and offer better advice to their clients. 
 - Data extracted from the real estate offers website metrocuadrado.com through web scraping. [Final dataset][cleandataset] with 7288 rows.
-- Project tools: Octoparse for webscarapping; Power BI/DAX for ETL, data modeling and visualization; Python and Excel.
+- Project tools: Octoparse for web scraping; Power BI/DAX for ETL, data modeling and visualization; Python and Excel.
 - It is found that the real estate market is growing mainly towards the north of the city, the largest number of offers and the highest valuations of price per square meter are found there.
 
 ## Problem statement
@@ -13,7 +13,7 @@ Currently there is no consolidated, clear and accessible information on the aver
 Some specific specific questions needed to be answer such as: What is the average price per square meter per neighborhood in Barranquilla? Which sector has the greatest and least movement in the real estate market? How is the behavior of prices in relation to the built area? What is the most common internal distribution of offerted properties?
 
 ## Data Collection
-In the absence of an open database with the necessary information, the data was extracted from the real estate offers website www.metrocuadrado.com through webscrapping using Octoparse. Running a pagination cycle, 7931 property records were obtained with the following attributes:
+In the absence of an open database with the necessary information, the data was extracted from the real estate offers website www.metrocuadrado.com through web scraping using Octoparse. Running a pagination cycle, 7931 property records were obtained with the following attributes:
 - Publication title (containing Property type and Neighborhood info)
 - URL
 - Sale price
