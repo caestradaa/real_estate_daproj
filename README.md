@@ -58,7 +58,7 @@ Average price per square meter metric was created using DAX by dividing the sale
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Barchart_Offers_by_Location.jpg "Barchart: Offers by Sector")  
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")  
 
-- **Correlation Analysis:**: As shown below, both apartments and houses have a stronger correlation between the price and the area of porperty, being slightly higher in apartmens(0.83) than houses (0.7). It was expected that the correlation between the price of the property and the number of bedrooms and bathrooms was not too high, however, it is surprising that both in apartments and houses the number of bathrooms is a little more correlated with the price. 
+- **Correlation Analysis:**: As shown below, both apartments and houses have a stronger correlation between the price and the area of porperty, being slightly higher in apartmens(0.83) than houses (0.7). It was expected that the correlation between the price of the property and the number of bedrooms and bathrooms was not too high, however, it is surprising that both in apartments and houses the number of bathrooms is more correlated with the price. 
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Corelation%20chart%20-%20Apartments.png "Correlation chart - Apartments")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Corelation%20chart%20-%20Houses.png "Correlation chart - Houses")
