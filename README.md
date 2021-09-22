@@ -47,19 +47,25 @@ Average price per square meter metric was created using DAX by dividing the sale
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/GEneral_Count.jpg "Count")
 
-- Offers distribution by type of property: For apartments, prices are concentrated between 255M and 540M with an average of 444M. For houses, between 400M and 950M with an average of 754M. And for the lots, prices are concentrated between 567M and 1800M with an average of 900 (Boxplot). Clearly, most offers are postulated for apartments. This is consistent with the boom of apartment and residential complexes construction projects taking place in the city.
+- **Offers distribution by type of property:** For apartments, prices are concentrated between 255M and 540M with an average of 444M. For houses, between 400M and 950M with an average of 754M. And for the lots, prices are concentrated between 567M and 1800M with an average of 900 (Boxplot). Clearly, most offers are postulated for apartments. This is consistent with the boom of apartment and residential complexes construction projects taking place in the city.
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/DonutChart%20-%20Category%20analysis%202.png "Donut Chart: Analysis by Type of Property")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Boxplot_by_category.jpg "Boxplot: Distribution of offers by type of property")  
 
-- Offers analysis by location: The offers market remains mainly in these three sectors: North-Historic Center (50.8%), Riomar (35.1%) and Puerto Colombia (5.1%) (Bar Chart).
+- **Offers analysis by location:** The offers market remains mainly in these three sectors: North-Historic Center (50.8%), Riomar (35.1%) and Puerto Colombia (5.1%) (Bar Chart).
 - Offers analysis by neighborhood: Top 5 neighborhoods with the highest number of offers: Altos del Prado, Altos de Riomar, Villa Santos, Villa Campestre and Ciudad Jardín (Table).
 
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Barchart_Offers_by_Location.jpg "Barchart: Offers by Sector")  
-![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Table%20price%20per%20m2%20-%20offers.jpg "Table: Top 5")  
+
+- **Correlation Analysis:** 
+
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Corelation%20chart%20-%20Apartments.png "Correlation chart - Apartments")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Images/Corelation%20chart%20-%20Houses.png "Correlation chart - Houses")
+
 
 ## Valuation Analysis
-A detailed analysis by type of property must be carried out. As shown before previously, the three types of property present in this study maintain very different price ranges and areas representing different markets. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
+A detailed analysis by type of property must be carried out. As shown before, the three types of property present in this study maintain very different price ranges and areas representing different markets. Therefore, it is necessary to separate the valuation analysis and the price per square meter by type of property. We will focus on Apartments and Houses as they are our target market.
 - Average price per square meter: For this metric, it was necessary to calculate a DAX measure by dividing the price of each property by its built area.
 - Valuation Estimate: To measure the appraisal of each neighborhood, many criteria are necessary including the average price per square meter of the sector, the age of the properties, the type of area (commercial or residential) and the future projection of the sector according to the land use plan. However, in this study we can only have a valuation estimate from the average price per square meter for both Apartments and Houses. Real estate agents must complement this estimate with additional information about the property in order to have a more accurate valuation. 
 
