@@ -10,7 +10,7 @@
 ## Problem statement
 Currently there is no consolidated, clear and accessible information on the average value of the square meter per sector in the city of Barranquilla. This information is of great value in the real estate market as it helps real estate consultants to provide much more focused advice with more accurate prices, allowing their clients to find the property that best suits their needs more quickly.
 
-Some specific specific questions needed to be answer such as: What is the average price per square meter per neighborhood in Barranquilla? Which sector has the greatest and least movement in the real estate market? How is the behavior of prices in relation to the built area? What is the most common internal distribution of offerted properties?
+Some specific questions needed to be answer such as: What is the average price per square meter per neighborhood in Barranquilla? Which sector has the greatest and least movement in the real estate market? How is the behavior of prices in relation to the built area? What is the most common internal distribution of offerted properties?
 
 ## Data Collection
 In the absence of an open database with the necessary information, the data was extracted from the real estate offers website www.metrocuadrado.com through web scraping using Octoparse. Running a pagination cycle, 7931 property records were obtained with the following attributes:
