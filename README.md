@@ -95,4 +95,4 @@ Offers and Valuation Map:
 
 [cleandataset]:https://github.com/caestradaa/real_estate_daproj/blob/main/Data%20source/Clean%20dataset%20-%20Properties%20for%20sale%20BAQ-COL.csv
 [auxdataset]:https://github.com/caestradaa/real_estate_daproj/blob/main/Data%20source/Aux%20data%20-%20Neighborhoods%20and%20Sectors%20(District%20Mayor's%20Office).csv
-<!---Para ocultar-->
+<!---Paara ocultar-->
