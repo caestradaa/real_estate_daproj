@@ -88,7 +88,7 @@ Offers and Valuation Map:
 - This information is of great value to real estate agents as it helps them to make more accurate estimates of the valuation of each area and offer better advice to their clients.
 
 ## Power BI Report preview
-![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/1%20Dashboard%20-%20Exploratory%20Analysis.PNG "Pag1")
+![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/1%20Dashboard%20-%20Exploratory%20Analysis.png "Pag1")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/2%20Dashboard%20-%20Detailed%20Analysis%20-%20Apartments.PNG "Page2")
 ![alt text](https://github.com/caestradaa/real_estate_daproj/blob/main/Power%20BI%20Report/5%20Dashboard%20-%20Internal%20distribution.PNG "Page5")
 
